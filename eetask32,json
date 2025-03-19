@@ -1,0 +1,110 @@
+[
+  {
+    "front": "La question qui se pose est...",
+    "back": "The question that arises is..."
+  },
+  {
+    "front": "Il est crucial d'examiner...",
+    "back": "It is crucial to examine..."
+  },
+  {
+    "front": "Ce sujet mérite une attention particulière car...",
+    "back": "This topic deserves special attention because..."
+  },
+  {
+    "front": "En analysant la situation, on constate que...",
+    "back": "By analyzing the situation, we notice that..."
+  },
+  {
+    "front": "Plusieurs facteurs entrent en jeu, notamment...",
+    "back": "Several factors come into play, including..."
+  },
+  {
+    "front": "Il convient de prendre en compte...",
+    "back": "It is important to take into account..."
+  },
+  {
+    "front": "Une solution envisageable serait de...",
+    "back": "A possible solution would be to..."
+  },
+  {
+    "front": "Pour remédier à ce problème, on pourrait...",
+    "back": "To address this problem, one could..."
+  },
+  {
+    "front": "Il serait judicieux de considérer...",
+    "back": "It would be wise to consider..."
+  },
+  {
+    "front": "Bien que cette approche présente des avantages, elle comporte aussi des inconvénients...",
+    "back": "Although this approach has advantages, it also has disadvantages..."
+  },
+  {
+    "front": "D'un côté... mais de l'autre...",
+    "back": "On one hand... but on the other hand..."
+  },
+  {
+    "front": "Les bénéfices de cette méthode sont..., cependant...",
+    "back": "The benefits of this method are..., however..."
+  },
+  {
+    "front": "Les statistiques montrent que...",
+    "back": "Statistics show that..."
+  },
+  {
+    "front": "Selon une étude récente...",
+    "back": "According to a recent study..."
+  },
+  {
+    "front": "Les experts dans ce domaine affirment que...",
+    "back": "Experts in this field claim that..."
+  },
+  {
+    "front": "Au vu de ces éléments, on peut conclure que...",
+    "back": "In light of these elements, we can conclude that..."
+  },
+  {
+    "front": "L'analyse de ces données nous amène à penser que...",
+    "back": "The analysis of this data leads us to think that..."
+  },
+  {
+    "front": "En définitive, il apparaît que...",
+    "back": "Ultimately, it appears that..."
+  },
+  {
+    "front": "Il serait recommandé de...",
+    "back": "It would be recommended to..."
+  },
+  {
+    "front": "La meilleure approche consisterait à...",
+    "back": "The best approach would be to..."
+  },
+  {
+    "front": "Pour optimiser les résultats, il faudrait...",
+    "back": "To optimize the results, it would be necessary to..."
+  },
+  {
+    "front": "On pourrait objecter que..., mais...",
+    "back": "One might object that..., but..."
+  },
+  {
+    "front": "Certains avancent l'idée que..., néanmoins...",
+    "back": "Some argue that..., nevertheless..."
+  },
+  {
+    "front": "Bien que certains soutiennent que..., il est important de considérer...",
+    "back": "Although some argue that..., it is important to consider..."
+  },
+  {
+    "front": "En somme,...",
+    "back": "In summary,..."
+  },
+  {
+    "front": "Pour conclure cette analyse...",
+    "back": "To conclude this analysis..."
+  },
+  {
+    "front": "En définitive, il est clair que...",
+    "back": "Ultimately, it is clear that..."
+  }
+]

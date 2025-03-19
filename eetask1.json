@@ -1,0 +1,86 @@
+[
+    {
+      "front": "Bonjour,",
+      "back": "Hello,"
+    },
+    {
+      "front": "Cher/Chère [nom],",
+      "back": "Dear [name],"
+    },
+    {
+      "front": "Je vous écris pour...",
+      "back": "I am writing to you to..."
+    },
+    {
+      "front": "Le but de ce message est de...",
+      "back": "The purpose of this message is to..."
+    },
+    {
+      "front": "Je voudrais vous informer que...",
+      "back": "I would like to inform you that..."
+    },
+    {
+      "front": "J'aimerais vous demander si...",
+      "back": "I would like to ask you if..."
+    },
+    {
+      "front": "Pourriez-vous me dire...",
+      "back": "Could you tell me..."
+    },
+    {
+      "front": "J'aurais besoin de savoir...",
+      "back": "I would need to know..."
+    },
+    {
+      "front": "Auriez-vous des informations sur...",
+      "back": "Would you have any information about..."
+    },
+    {
+      "front": "Je tiens à vous informer que...",
+      "back": "I would like to inform you that..."
+    },
+    {
+      "front": "Veuillez noter que...",
+      "back": "Please note that..."
+    },
+    {
+      "front": "Il est important de mentionner que...",
+      "back": "It is important to mention that..."
+    },
+    {
+      "front": "Serait-il possible de...",
+      "back": "Would it be possible to..."
+    },
+    {
+      "front": "Je vous serais reconnaissant(e) si vous pouviez...",
+      "back": "I would be grateful if you could..."
+    },
+    {
+      "front": "Pourriez-vous s'il vous plaît...",
+      "back": "Could you please..."
+    },
+    {
+      "front": "Merci d'avance pour votre aide.",
+      "back": "Thank you in advance for your help."
+    },
+    {
+      "front": "Je vous remercie de votre compréhension.",
+      "back": "Thank you for your understanding."
+    },
+    {
+      "front": "J'apprécie votre attention à ce sujet.",
+      "back": "I appreciate your attention to this matter."
+    },
+    {
+      "front": "Cordialement,",
+      "back": "Sincerely,"
+    },
+    {
+      "front": "Bien à vous,",
+      "back": "Yours truly,"
+    },
+    {
+      "front": "Dans l'attente de votre réponse,",
+      "back": "Looking forward to your reply,"
+    }
+  ]

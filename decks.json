@@ -18,5 +18,17 @@
   {
     "id": "trial",
     "name": "TCF EE"
+  },
+  {
+    "id": "eetask1",
+    "name": "TCF EE - Task 1"
+  },
+  {
+    "id": "eetask31",
+    "name": "TCF EE - Task 3-1"
+  },
+  {
+    "id": "eetask32",
+    "name": "TCF EE - Task 3-2"
   }
 ]

@@ -1,0 +1,106 @@
+[
+    {
+      "front": "À mon avis...",
+      "back": "In my opinion..."
+    },
+    {
+      "front": "Je pense que...",
+      "back": "I think that..."
+    },
+    {
+      "front": "Selon moi...",
+      "back": "According to me..."
+    },
+    {
+      "front": "Il me semble que...",
+      "back": "It seems to me that..."
+    },
+    {
+      "front": "Tout d'abord...",
+      "back": "First of all..."
+    },
+    {
+      "front": "Deuxièmement...",
+      "back": "Secondly..."
+    },
+    {
+      "front": "En outre...",
+      "back": "Moreover..."
+    },
+    {
+      "front": "De plus...",
+      "back": "Furthermore..."
+    },
+    {
+      "front": "Par exemple...",
+      "back": "For example..."
+    },
+    {
+      "front": "Pour illustrer ce point...",
+      "back": "To illustrate this point..."
+    },
+    {
+      "front": "Prenons le cas de...",
+      "back": "Let's take the case of..."
+    },
+    {
+      "front": "Je suis d'accord avec...",
+      "back": "I agree with..."
+    },
+    {
+      "front": "Je partage l'opinion que...",
+      "back": "I share the opinion that..."
+    },
+    {
+      "front": "Il est vrai que...",
+      "back": "It is true that..."
+    },
+    {
+      "front": "Je ne suis pas d'accord avec...",
+      "back": "I disagree with..."
+    },
+    {
+      "front": "Je ne partage pas l'avis que...",
+      "back": "I do not share the view that..."
+    },
+    {
+      "front": "Contrairement à ce qu'on pourrait penser...",
+      "back": "Contrary to what one might think..."
+    },
+    {
+      "front": "D'une part... d'autre part...",
+      "back": "On one hand... on the other hand..."
+    },
+    {
+      "front": "Bien que... cependant...",
+      "back": "Although... however..."
+    },
+    {
+      "front": "Malgré... néanmoins...",
+      "back": "Despite... nevertheless..."
+    },
+    {
+      "front": "En conclusion...",
+      "back": "In conclusion..."
+    },
+    {
+      "front": "Pour résumer...",
+      "back": "To summarize..."
+    },
+    {
+      "front": "En fin de compte...",
+      "back": "Ultimately..."
+    },
+    {
+      "front": "Par conséquent...",
+      "back": "Therefore..."
+    },
+    {
+      "front": "Cela entraîne...",
+      "back": "This leads to..."
+    },
+    {
+      "front": "Il en résulte que...",
+      "back": "It results in..."
+    }
+  ]
