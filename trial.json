@@ -1,157 +1,126 @@
 [
-      {
-        "category": "Expressing Opinion (for essays/arguments)",
-        "front": "À mon avis / Selon moi...",
-        "back": "In my opinion..."
-      },
-      {
-        "category": "Expressing Opinion (for essays/arguments)",
-        "front": "Je suis convaincu(e) que...",
-        "back": "I am convinced that..."
-      },
-      {
-        "category": "Expressing Opinion (for essays/arguments)",
-        "front": "Il me semble que...",
-        "back": "It seems to me that..."
-      },
-      {
-        "category": "Expressing Opinion (for essays/arguments)",
-        "front": "D'après mon expérience...",
-        "back": "Based on my experience..."
-      },
-      {
-        "category": "Expressing Opinion (for essays/arguments)",
-        "front": "Je soutiens l'idée que...",
-        "back": "I support the idea that..."
-      },
-      {
-        "category": "Connecting Ideas",
-        "front": "En premier lieu / En second lieu",
-        "back": "Firstly / Secondly"
-      },
-      {
-        "category": "Connecting Ideas",
-        "front": "Non seulement... mais aussi...",
-        "back": "Not only... but also..."
-      },
-      {
-        "category": "Connecting Ideas",
-        "front": "D'une part... d'autre part...",
-        "back": "On one hand... on the other hand..."
-      },
-      {
-        "category": "Connecting Ideas",
-        "front": "Par ailleurs",
-        "back": "Moreover / Furthermore"
-      },
-      {
-        "category": "Connecting Ideas",
-        "front": "En outre / De plus",
-        "back": "In addition / Moreover"
-      },
-      {
-        "category": "Providing Examples",
-        "front": "Par exemple",
-        "back": "For example"
-      },
-      {
-        "category": "Providing Examples",
-        "front": "Pour illustrer ce point",
-        "back": "To illustrate this point"
-      },
-      {
-        "category": "Providing Examples",
-        "front": "Prenons le cas de...",
-        "back": "Let's take the case of..."
-      },
-      {
-        "category": "Providing Examples",
-        "front": "Notamment",
-        "back": "Notably"
-      },
-      {
-        "category": "Providing Examples",
-        "front": "Tel que / Comme",
-        "back": "Such as / Like"
-      },
-      {
-        "category": "Making a Contrast",
-        "front": "Cependant",
-        "back": "However"
-      },
-      {
-        "category": "Making a Contrast",
-        "front": "En revanche",
-        "back": "On the other hand"
-      },
-      {
-        "category": "Making a Contrast",
-        "front": "Néanmoins",
-        "back": "Nevertheless"
-      },
-      {
-        "category": "Making a Contrast",
-        "front": "Bien que + subjunctive",
-        "back": "Although + subjunctive"
-      },
-      {
-        "category": "Making a Contrast",
-        "front": "Malgré + noun",
-        "back": "Despite + noun"
-      },
-      {
-        "category": "Professional Email Phrases",
-        "front": "Je me permets de vous contacter au sujet de...",
-        "back": "I am reaching out to you regarding..."
-      },
-      {
-        "category": "Professional Email Phrases",
-        "front": "Suite à notre conversation...",
-        "back": "Following our conversation..."
-      },
-      {
-        "category": "Professional Email Phrases",
-        "front": "Je fais suite à votre message concernant...",
-        "back": "I am following up on your message regarding..."
-      },
-      {
-        "category": "Professional Email Phrases",
-        "front": "Dans l'attente de votre réponse...",
-        "back": "Looking forward to your reply..."
-      },
-      {
-        "category": "Professional Email Phrases",
-        "front": "Je reste à votre disposition pour...",
-        "back": "I remain at your disposal for..."
-      },
-      {
-        "category": "Professional Email Phrases",
-        "front": "En vous remerciant par avance...",
-        "back": "Thanking you in advance..."
-      },
-      {
-        "category": "Problem-Solution Structure",
-        "front": "Le problème principal est...",
-        "back": "The main problem is..."
-      },
-      {
-        "category": "Problem-Solution Structure",
-        "front": "Une solution possible serait de...",
-        "back": "A possible solution would be to..."
-      },
-      {
-        "category": "Problem-Solution Structure",
-        "front": "Cela permettrait de...",
-        "back": "This would allow..."
-      },
-      {
-        "category": "Problem-Solution Structure",
-        "front": "Il serait avantageux de...",
-        "back": "It would be advantageous to..."
-      },
-      {
-        "category": "Problem-Solution Structure",
-        "front": "Pour résoudre ce problème...",
-        "back": "To solve this problem..."
-      }
-]
+    {
+      "front": "À mon avis / Selon moi...",
+      "back": "In my opinion..."
+    },
+    {
+      "front": "Je suis convaincu(e) que...",
+      "back": "I am convinced that..."
+    },
+    {
+      "front": "Il me semble que...",
+      "back": "It seems to me that..."
+    },
+    {
+      "front": "D'après mon expérience...",
+      "back": "Based on my experience..."
+    },
+    {
+      "front": "Je soutiens l'idée que...",
+      "back": "I support the idea that..."
+    },
+    {
+      "front": "En premier lieu / En second lieu",
+      "back": "Firstly / Secondly"
+    },
+    {
+      "front": "Non seulement... mais aussi...",
+      "back": "Not only... but also..."
+    },
+    {
+      "front": "D'une part... d'autre part...",
+      "back": "On one hand... on the other hand..."
+    },
+    {
+      "front": "Par ailleurs",
+      "back": "Moreover / Furthermore"
+    },
+    {
+      "front": "En outre / De plus",
+      "back": "In addition / Moreover"
+    },
+    {
+      "front": "Par exemple",
+      "back": "For example"
+    },
+    {
+      "front": "Pour illustrer ce point",
+      "back": "To illustrate this point"
+    },
+    {
+      "front": "Prenons le cas de...",
+      "back": "Let's take the case of..."
+    },
+    {
+      "front": "Notamment",
+      "back": "Notably"
+    },
+    {
+      "front": "Tel que / Comme",
+      "back": "Such as / Like"
+    },
+    {
+      "front": "Cependant",
+      "back": "However"
+    },
+    {
+      "front": "En revanche",
+      "back": "On the other hand"
+    },
+    {
+      "front": "Néanmoins",
+      "back": "Nevertheless"
+    },
+    {
+      "front": "Bien que + subjunctive",
+      "back": "Although + subjunctive"
+    },
+    {
+      "front": "Malgré + noun",
+      "back": "Despite + noun"
+    },
+    {
+      "front": "Je me permets de vous contacter au sujet de...",
+      "back": "I am reaching out to you regarding..."
+    },
+    {
+      "front": "Suite à notre conversation...",
+      "back": "Following our conversation..."
+    },
+    {
+      "front": "Je fais suite à votre message concernant...",
+      "back": "I am following up on your message regarding..."
+    },
+    {
+      "front": "Dans l'attente de votre réponse...",
+      "back": "Looking forward to your reply..."
+    },
+    {
+      "front": "Je reste à votre disposition pour...",
+      "back": "I remain at your disposal for..."
+    },
+    {
+      "front": "En vous remerciant par avance...",
+      "back": "Thanking you in advance..."
+    },
+    {
+      "front": "Le problème principal est...",
+      "back": "The main problem is..."
+    },
+    {
+      "front": "Une solution possible serait de...",
+      "back": "A possible solution would be to..."
+    },
+    {
+      "front": "Cela permettrait de...",
+      "back": "This would allow..."
+    },
+    {
+      "front": "Il serait avantageux de...",
+      "back": "It would be advantageous to..."
+    },
+    {
+      "front": "Pour résoudre ce problème...",
+      "back": "To solve this problem..."
+    }
+  ]
