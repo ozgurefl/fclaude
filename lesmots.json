@@ -1,0 +1,246 @@
+[
+    {
+      "front": "aussi - also",
+      "back": "J'aime le café, et j'aime aussi le thé. - I like coffee, and I also like tea."
+    },
+    {
+      "front": "de plus - moreover/furthermore",
+      "back": "Il est intelligent, de plus il est travailleur. - He is intelligent, moreover he is hardworking."
+    },
+    {
+      "front": "de même - likewise/similarly",
+      "back": "Pierre aime la musique, de même que sa sœur. - Pierre likes music, likewise his sister."
+    },
+    {
+      "front": "de la même manière - in the same way",
+      "back": "Elle étudie de la même manière que sa mère le faisait. - She studies in the same way her mother did."
+    },
+    {
+      "front": "mais aussi - but also",
+      "back": "Il parle non seulement français, mais aussi anglais. - He speaks not only French, but also English."
+    },
+    {
+      "front": "également - also/as well",
+      "back": "Mon frère aime également le sport. - My brother likes sports as well."
+    },
+    {
+      "front": "à cause de - because of",
+      "back": "Je suis en retard à cause du trafic. - I'm late because of traffic."
+    },
+    {
+      "front": "car - because/for",
+      "back": "Je reste à la maison car il pleut. - I'm staying home because it's raining."
+    },
+    {
+      "front": "comme - as/since",
+      "back": "Comme il fait beau, allons nous promener. - As it's nice out, let's go for a walk."
+    },
+    {
+      "front": "dû à - due to",
+      "back": "L'annulation est dû à la météo. - The cancellation is due to the weather."
+    },
+    {
+      "front": "puisque - since",
+      "back": "Puisque tu es là, on peut commencer. - Since you're here, we can begin."
+    },
+    {
+      "front": "étant donné que - given that",
+      "back": "Étant donné que vous êtes tous d'accord, nous pouvons continuer. - Given that you all agree, we can continue."
+    },
+    {
+      "front": "grâce à - thanks to",
+      "back": "J'ai réussi grâce à ton aide. - I succeeded thanks to your help."
+    },
+    {
+      "front": "afin de / afin que - in order to",
+      "back": "Je travaille dur afin de réussir. - I work hard in order to succeed."
+    },
+    {
+      "front": "avec l'intention de / avec l'objectif de - with the intention of",
+      "back": "Il étudie avec l'objectif de devenir médecin. - He studies with the objective of becoming a doctor."
+    },
+    {
+      "front": "pour / pour que - for/so that",
+      "back": "Je fais du sport pour être en forme. - I exercise to stay in shape."
+    },
+    {
+      "front": "de manière à ce que - so that",
+      "back": "Parle plus fort de manière à ce que tout le monde t'entende. - Speak louder so that everyone can hear you."
+    },
+    {
+      "front": "donc - therefore/so",
+      "back": "Il pleut, donc je prends mon parapluie. - It's raining, therefore I'm taking my umbrella."
+    },
+    {
+      "front": "ainsi - thus",
+      "back": "Il a beaucoup étudié, ainsi il a réussi son examen. - He studied a lot, thus he passed his exam."
+    },
+    {
+      "front": "alors - so",
+      "back": "Tu es fatigué, alors va te coucher. - You're tired, so go to bed."
+    },
+    {
+      "front": "par conséquent - consequently",
+      "back": "Il est malade, par conséquent il ne viendra pas. - He is sick, consequently he won't come."
+    },
+    {
+      "front": "en conséquence - as a result",
+      "back": "Le train est en retard, en conséquence nous manquerons notre correspondance. - The train is late, as a result we'll miss our connection."
+    },
+    {
+      "front": "d'où - hence",
+      "back": "Il n'a pas étudié, d'où son échec. - He didn't study, hence his failure."
+    },
+    {
+      "front": "c'est pourquoi - that's why",
+      "back": "Il aime la nature, c'est pourquoi il vit à la campagne. - He loves nature, that's why he lives in the countryside."
+    },
+    {
+      "front": "pour cette raison - for this reason",
+      "back": "Pour cette raison, nous devons partir tôt. - For this reason, we must leave early."
+    },
+    {
+      "front": "si - if",
+      "back": "Si tu viens, je serai content. - If you come, I'll be happy."
+    },
+    {
+      "front": "à condition que - provided that",
+      "back": "Je viendrai à condition que tu sois là. - I'll come provided that you're there."
+    },
+    {
+      "front": "à moins que - unless",
+      "back": "J'irai à la plage à moins qu'il pleuve. - I'll go to the beach unless it rains."
+    },
+    {
+      "front": "au cas où - in case",
+      "back": "Prends un parapluie au cas où il pleuvrait. - Take an umbrella in case it rains."
+    },
+    {
+      "front": "pourvu que - as long as",
+      "back": "Tout ira bien pourvu qu'il arrive à l'heure. - Everything will be fine as long as he arrives on time."
+    },
+    {
+      "front": "tant que - as long as",
+      "back": "Je t'attendrai tant que tu n'es pas là. - I'll wait for you as long as you're not here."
+    },
+    {
+      "front": "mais - but",
+      "back": "J'aime le chocolat mais je suis au régime. - I like chocolate but I'm on a diet."
+    },
+    {
+      "front": "au contraire - on the contrary",
+      "back": "Il n'est pas paresseux, au contraire, il travaille dur. - He's not lazy, on the contrary, he works hard."
+    },
+    {
+      "front": "cependant - however",
+      "back": "Le film était bon, cependant la fin était décevante. - The movie was good, however the ending was disappointing."
+    },
+    {
+      "front": "néanmoins - nevertheless",
+      "back": "C'est difficile, néanmoins je vais essayer. - It's difficult, nevertheless I'll try."
+    },
+    {
+      "front": "malgré - despite",
+      "back": "Il est sorti malgré la pluie. - He went out despite the rain."
+    },
+    {
+      "front": "même si - even if",
+      "back": "Je viendrai même si il pleut. - I'll come even if it rains."
+    },
+    {
+      "front": "bien que - although",
+      "back": "Bien qu'il soit riche, il vit simplement. - Although he's rich, he lives simply."
+    },
+    {
+      "front": "quoique - although/though",
+      "back": "Je l'aime bien, quoique je ne le connaisse pas très bien. - I like him, although I don't know him very well."
+    },
+    {
+      "front": "autrement - otherwise",
+      "back": "Fais tes devoirs, autrement tu seras puni. - Do your homework, otherwise you'll be punished."
+    },
+    {
+      "front": "toutefois - however",
+      "back": "Le projet est intéressant, toutefois il y a des risques. - The project is interesting, however there are risks."
+    },
+    {
+      "front": "pourtant - yet",
+      "back": "Il est intelligent, pourtant il fait beaucoup d'erreurs. - He is intelligent, yet he makes many mistakes."
+    },
+    {
+      "front": "par contre - on the other hand",
+      "back": "Je n'aime pas le café, par contre j'adore le thé. - I don't like coffee, on the other hand I love tea."
+    },
+    {
+      "front": "en revanche - however/on the other hand",
+      "back": "Le restaurant est cher, en revanche la nourriture est excellente. - The restaurant is expensive, however the food is excellent."
+    },
+    {
+      "front": "par exemple - for example",
+      "back": "J'aime plusieurs sports, par exemple le tennis. - I like several sports, for example tennis."
+    },
+    {
+      "front": "en d'autres termes - in other words",
+      "back": "C'est compliqué, en d'autres termes c'est difficile à comprendre. - It's complicated, in other words it's difficult to understand."
+    },
+    {
+      "front": "c'est-à-dire - that is to say",
+      "back": "Je suis végétarien, c'est-à-dire je ne mange pas de viande. - I'm vegetarian, that is to say I don't eat meat."
+    },
+    {
+      "front": "pour commencer - to begin with",
+      "back": "Pour commencer, parlons de vos objectifs. - To begin with, let's talk about your objectives."
+    },
+    {
+      "front": "tout d'abord - first of all",
+      "back": "Tout d'abord, je voudrais vous remercier. - First of all, I would like to thank you."
+    },
+    {
+      "front": "avant tout - above all",
+      "back": "Avant tout, il faut rester calme. - Above all, we must stay calm."
+    },
+    {
+      "front": "premièrement - firstly",
+      "back": "Premièrement, lisez les instructions. - Firstly, read the instructions."
+    },
+    {
+      "front": "en premier lieu - in the first place",
+      "back": "En premier lieu, nous devons définir nos priorités. - In the first place, we need to define our priorities."
+    },
+    {
+      "front": "pour conclure - to conclude",
+      "back": "Pour conclure, je dirais que c'est un bon projet. - To conclude, I would say it's a good project."
+    },
+    {
+      "front": "pour finir - finally",
+      "back": "Pour finir, je voudrais remercier tout le monde. - Finally, I would like to thank everyone."
+    },
+    {
+      "front": "enfin - finally/at last",
+      "back": "Enfin, nous sommes arrivés! - At last, we have arrived!"
+    },
+    {
+      "front": "en un mot - in a word",
+      "back": "En un mot, c'était parfait. - In a word, it was perfect."
+    },
+    {
+      "front": "en somme - in sum",
+      "back": "En somme, c'était une bonne journée. - In sum, it was a good day."
+    },
+    {
+      "front": "en résumé - in summary",
+      "back": "En résumé, voici les points principaux. - In summary, here are the main points."
+    },
+    {
+      "front": "d'après - according to",
+      "back": "D'après Marie, il va pleuvoir demain. - According to Marie, it will rain tomorrow."
+    },
+    {
+      "front": "selon - according to",
+      "back": "Selon les experts, la situation va s'améliorer. - According to experts, the situation will improve."
+    },
+    {
+      "front": "comme mentionné - as mentioned",
+      "back": "Comme mentionné précédemment, nous devons être prudents. - As mentioned previously, we must be careful."
+    }
+  ]
