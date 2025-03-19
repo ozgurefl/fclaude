@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcard App</title>
+  <!-- Tailwind CSS and DaisyUI CDN -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/daisyui/2.6.0/full.css" rel="stylesheet">
+  <style>
+    .flashcard {
+      perspective: 1000px;
+      transition: transform 0.5s;
+    }
+    .card-inner {
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+    }
+    .flipped .card-inner {
+      transform: rotateY(180deg);
+    }
+    .card-front, .card-back {
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+    .card-back {
+      transform: rotateY(180deg);
+    }
+  </style>
+</head>
+<body class="bg-base-100 min-h-screen flex flex-col transition-colors duration-300">
+  <div class="container max-w-md mx-auto p-4 flex flex-col flex-grow">
+    <header class="mb-4">
+      <div class="flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-center text-primary">Flashcard App</h1>
+        <label class="swap swap-rotate">
+          <!-- Theme toggle icon -->
+          <input type="checkbox" id="theme-toggle" />
+          <svg class="swap-on fill-current w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"/></svg>
+          <svg class="swap-off fill-current w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z"/></svg>
+        </label>
+      </div>
+      
+      <div class="flex justify-between items-center mt-4">
+        <select id="deck-selector" class="select select-bordered select-primary w-full max-w-xs">
+          <option disabled selected>Choose a deck</option>
+          <!-- Decks will be loaded here -->
+        </select>
+        
+        <button id="refresh-btn" class="btn btn-circle btn-ghost ml-2">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+          </svg>
+        </button>
+      </div>
+    </header>
+    
+    <div class="flex-grow flex items-center justify-center">
+      <div id="flashcard" class="flashcard w-full h-64 cursor-pointer">
+        <div class="card-inner relative w-full h-full">
+          <div class="card-front absolute w-full h-full">
+            <div class="card bg-base-200 shadow-xl h-full flex items-center justify-center">
+              <div class="card-body text-center">
+                <h2 id="card-front-text" class="text-2xl font-bold">Select a deck to begin</h2>
+              </div>
+            </div>
+          </div>
+          <div class="card-back absolute w-full h-full">
+            <div class="card bg-primary text-primary-content shadow-xl h-full flex items-center justify-center">
+              <div class="card-body text-center">
+                <p id="card-back-text" class="text-xl"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="mt-6 grid grid-cols-2 gap-4">
+      <button id="prev-btn" class="btn btn-outline w-full disabled:opacity-50" disabled>Previous</button>
+      <button id="next-btn" class="btn btn-primary w-full disabled:opacity-50" disabled>Next</button>
+    </div>
+    
+    <div class="mt-4 text-center">
+      <span id="progress-text" class="text-sm text-gray-500">0/0</span>
+    </div>
+    
+    <div class="mt-6 text-center text-sm text-gray-500">
+      <div class="stats stats-vertical lg:stats-horizontal shadow">
+        <div class="stat">
+          <div class="stat-title">Cards</div>
+          <div class="stat-value text-lg" id="stats-cards">0</div>
+        </div>
+        <div class="stat">
+          <div class="stat-title">Viewed</div>
+          <div class="stat-value text-lg" id="stats-viewed">0</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // DOM elements
+      const deckSelector = document.getElementById('deck-selector');
+      const flashcard = document.getElementById('flashcard');
+      const cardFrontText = document.getElementById('card-front-text');
+      const cardBackText = document.getElementById('card-back-text');
+      const prevBtn = document.getElementById('prev-btn');
+      const nextBtn = document.getElementById('next-btn');
+      const refreshBtn = document.getElementById('refresh-btn');
+      const progressText = document.getElementById('progress-text');
+      const themeToggle = document.getElementById('theme-toggle');
+      const statsCards = document.getElementById('stats-cards');
+      const statsViewed = document.getElementById('stats-viewed');
+      
+      // App state
+      let decks = [];
+      let currentDeck = null;
+      let currentCardIndex = 0;
+      let cards = [];
+      let viewedCards = new Set();
+      
+      // Theme management
+      themeToggle.addEventListener('change', function() {
+        if (this.checked) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+          localStorage.setItem('theme', 'dark');
+        } else {
+          document.documentElement.setAttribute('data-theme', 'light');
+          localStorage.setItem('theme', 'light');
+        }
+      });
+      
+      // Check for saved theme preference
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        themeToggle.checked = true;
+      }
+      
+      // Fetch available decks
+      async function fetchDecks() {
+        try {
+          // In a real app, you would fetch this from the server
+          // For demo, we'll use hardcoded deck info
+          decks = [
+            { id: 'spanish', name: 'Spanish Vocabulary' },
+            { id: 'french', name: 'French Vocabulary' },
+            { id: 'programming', name: 'Programming Terms' }
+          ];
+          
+          // Populate deck selector
+          decks.forEach(deck => {
+            const option = document.createElement('option');
+            option.value = deck.id;
+            option.textContent = deck.name;
+            deckSelector.appendChild(option);
+          });
+        } catch (error) {
+          console.error('Error fetching decks:', error);
+        }
+      }
+      
+      // Fetch cards for a specific deck
+      async function fetchCards(deckId) {
+        try {
+          // In a real app, you would fetch from a JSON file
+          // For demo purposes, we'll use hardcoded data
+          let deckData;
+          
+          if (deckId === 'spanish') {
+            deckData = [
+              { front: 'hola', back: 'hello' },
+              { front: 'adiós', back: 'goodbye' },
+              { front: 'por favor', back: 'please' },
+              { front: 'gracias', back: 'thank you' },
+              { front: 'sí', back: 'yes' }
+            ];
+          } else if (deckId === 'french') {
+            deckData = [
+              { front: 'bonjour', back: 'hello' },
+              { front: 'au revoir', back: 'goodbye' },
+              { front: 's\'il vous plaît', back: 'please' },
+              { front: 'merci', back: 'thank you' },
+              { front: 'oui', back: 'yes' }
+            ];
+          } else if (deckId === 'programming') {
+            deckData = [
+              { front: 'algorithm', back: 'step-by-step procedure for calculations' },
+              { front: 'API', back: 'Application Programming Interface' },
+              { front: 'variable', back: 'container for storing data values' },
+              { front: 'function', back: 'block of code designed to perform a particular task' },
+              { front: 'debugging', back: 'process of finding and resolving defects' }
+            ];
+          }
+          
+          return deckData || [];
+        } catch (error) {
+          console.error(`Error fetching cards for deck ${deckId}:`, error);
+          return [];
+        }
+      }
+      
+      // Load a specific deck
+      async function loadDeck(deckId) {
+        cards = await fetchCards(deckId);
+        currentDeck = decks.find(d => d.id === deckId);
+        currentCardIndex = 0;
+        viewedCards = new Set();
+        updateCardDisplay();
+        updateButtonStates();
+        updateStats();
+      }
+      
+      // Update the flashcard display
+      function updateCardDisplay() {
+        if (cards.length > 0 && currentCardIndex < cards.length) {
+          const card = cards[currentCardIndex];
+          cardFrontText.textContent = card.front;
+          cardBackText.textContent = card.back;
+          progressText.textContent = `${currentCardIndex + 1}/${cards.length}`;
+        } else {
+          cardFrontText.textContent = 'No cards available';
+          cardBackText.textContent = '';
+          progressText.textContent = '0/0';
+        }
+        
+        // Reset the card to front side
+        flashcard.classList.remove('flipped');
+      }
+      
+      // Update button states
+      function updateButtonStates() {
+        prevBtn.disabled = currentCardIndex <= 0;
+        nextBtn.disabled = currentCardIndex >= cards.length - 1;
+      }
+      
+      // Update statistics
+      function updateStats() {
+        statsCards.textContent = cards.length;
+        statsViewed.textContent = viewedCards.size;
+      }
+      
+      // Event listeners
+      deckSelector.addEventListener('change', function() {
+        if (this.value) {
+          loadDeck(this.value);
+        }
+      });
+      
+      flashcard.addEventListener('click', function() {
+        // Only allow flipping if a deck is selected
+        if (cards.length > 0) {
+          this.classList.toggle('flipped');
+          // Mark card as viewed when flipped
+          if (this.classList.contains('flipped')) {
+            viewedCards.add(currentCardIndex);
+            updateStats();
+          }
+        }
+      });
+      
+      prevBtn.addEventListener('click', function() {
+        if (currentCardIndex > 0) {
+          currentCardIndex--;
+          updateCardDisplay();
+          updateButtonStates();
+        }
+      });
+      
+      nextBtn.addEventListener('click', function() {
+        if (currentCardIndex < cards.length - 1) {
+          currentCardIndex++;
+          updateCardDisplay();
+          updateButtonStates();
+        }
+      });
+      
+      refreshBtn.addEventListener('click', function() {
+        if (currentDeck) {
+          // Shuffle the cards
+          cards = [...cards].sort(() => Math.random() - 0.5);
+          currentCardIndex = 0;
+          updateCardDisplay();
+          updateButtonStates();
+        }
+      });
+      
+      // Functions for loading JSON files in a real implementation
+      async function loadDecksFromJSON() {
+        try {
+          const response = await fetch('decks.json');
+          if (!response.ok) throw new Error('Network response was not ok');
+          return await response.json();
+        } catch (error) {
+          console.error('Error loading decks:', error);
+          return [];
+        }
+      }
+      
+      async function loadCardsFromJSON(deckId) {
+        try {
+          const response = await fetch(`${deckId}.json`);
+          if (!response.ok) throw new Error('Network response was not ok');
+          return await response.json();
+        } catch (error) {
+          console.error(`Error loading cards for deck ${deckId}:`, error);
+          return [];
+        }
+      }
+      
+      // Initialize the app
+      fetchDecks();
+      
+      // Add keyboard navigation
+      document.addEventListener('keydown', function(event) {
+        if (event.key === 'ArrowLeft' && !prevBtn.disabled) {
+          prevBtn.click();
+        } else if (event.key === 'ArrowRight' && !nextBtn.disabled) {
+          nextBtn.click();
+        } else if (event.key === ' ' || event.key === 'Enter') {
+          flashcard.click();
+        }
+      });
+    });
+  </script>
+</body>
+</html>
