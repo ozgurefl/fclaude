@@ -1,5 +1,4 @@
-{
-    "flashcards": [
+[
       {
         "category": "Expressing Opinion (for essays/arguments)",
         "front": "À mon avis / Selon moi...",
@@ -155,5 +154,4 @@
         "front": "Pour résoudre ce problème...",
         "back": "To solve this problem..."
       }
-    ]
-  }
+]
