@@ -1,0 +1,126 @@
+[
+    {
+      "front": "pour + INF / afin de + INF (in order to)",
+      "back": "1. Je travaille dur pour réussir mes examens. (I work hard to pass my exams.)\n2. Elle économise afin de voyager. (She saves money in order to travel.)"
+    },
+    {
+      "front": "sans + INF (without ...ing)",
+      "back": "1. Il est parti sans dire au revoir. (He left without saying goodbye.)\n2. Elle a réussi sans tricher. (She succeeded without cheating.)"
+    },
+    {
+      "front": "au lieu de + INF (instead of doing)",
+      "back": "1. Au lieu de dormir, il joue aux jeux vidéo. (Instead of sleeping, he plays video games.)\n2. Au lieu de prendre le bus, je préfère marcher. (Instead of taking the bus, I prefer to walk.)"
+    },
+    {
+      "front": "avant de + INF (before doing)",
+      "back": "1. Avant de manger, je me lave les mains. (Before eating, I wash my hands.)\n2. Avant de partir, éteins la lumière. (Before leaving, turn off the light.)"
+    },
+    {
+      "front": "si seulement je pouvais + INF (if only I could)",
+      "back": "1. Si seulement je pouvais parler couramment français ! (If only I could speak French fluently!)\n2. Si seulement je pouvais voyager dans le temps ! (If only I could time travel!)"
+    },
+    {
+      "front": "je voudrais / j'aimerais + INF (I would like to)",
+      "back": "1. Je voudrais visiter Paris un jour. (I would like to visit Paris one day.)\n2. J’aimerais apprendre à jouer de la guitare. (I’d like to learn to play the guitar.)"
+    },
+    {
+      "front": "avant, je pouvais + INF (Before I used to be able to...)",
+      "back": "1. Avant, je pouvais courir 10 km sans problème. (Before, I could run 10 km easily.)\n2. Avant, je pouvais manger du gluten. (Before, I used to be able to eat gluten.)"
+    },
+    {
+      "front": "avant, j’aimais + INF (Before I used to like to...)",
+      "back": "1. Avant, j’aimais jouer au football. (Before, I used to like playing football.)\n2. Avant, j’aimais regarder les étoiles. (Before, I used to like stargazing.)"
+    },
+    {
+      "front": "j'ai de la chance de + INF (I am lucky to)",
+      "back": "1. J’ai de la chance d’avoir une famille aimante. (I’m lucky to have a loving family.)\n2. J’ai de la chance de vivre près de la mer. (I’m lucky to live near the sea.)"
+    },
+    {
+      "front": "je viens de + INF (I have just done...)",
+      "back": "1. Je viens de finir mon travail. (I’ve just finished my work.)\n2. Je viens de recevoir un message. (I’ve just received a message.)"
+    },
+    {
+      "front": "je suis en train de + INF (I am ...ing)",
+      "back": "1. Je suis en train de préparer le dîner. (I’m cooking dinner.)\n2. Je suis en train de lire un livre. (I’m in the middle of reading a book.)"
+    },
+    {
+      "front": "j'ai envie de + INF (I feel like ...ing)",
+      "back": "1. J’ai envie de manger une glace. (I feel like eating ice cream.)\n2. J’ai envie de danser ce soir ! (I feel like dancing tonight!)"
+    },
+    {
+      "front": "j'espère + INF (I hope to)",
+      "back": "1. J’espère réussir mon examen. (I hope to pass my exam.)\n2. J’espère te revoir bientôt. (I hope to see you again soon.)"
+    },
+    {
+      "front": "j'ai l'intention de + INF (I intend to)",
+      "back": "1. J’ai l’intention d’étudier à l’étranger. (I intend to study abroad.)\n2. J’ai l’intention de déménager l’année prochaine. (I plan to move next year.)"
+    },
+    {
+      "front": "il faut + INF (one must...) / il faudrait + INF (one should...)",
+      "back": "1. Il faut boire de l’eau tous les jours. (You must drink water every day.)\n2. Il faudrait visiter ce musée, il est génial. (You should visit this museum—it’s amazing.)"
+    },
+    {
+      "front": "on peut + INF (one can...) / on pourrait + INF (one could...)",
+      "back": "1. On peut aller au cinéma ce soir. (We can go to the cinema tonight.)\n2. On pourrait partir plus tôt demain. (We could leave earlier tomorrow.)"
+    },
+    {
+      "front": "j'aurais dû + INF (I should have...) / j'aurais pu + INF (I could have...)",
+      "back": "1. J’aurais dû étudier plus. (I should have studied more.)\n2. J’aurais pu acheter ce livre hier. (I could have bought that book yesterday.)"
+    },
+    {
+      "front": "même si je pouvais + INF (even if I could)",
+      "back": "1. Même si je pouvais partir, je resterais. (Even if I could leave, I would stay.)\n2. Même si je pouvais voler, j’aurais peur. (Even if I could fly, I’d be scared.)"
+    },
+    {
+      "front": "je suis sur le point de + INF (I am about to...)",
+      "back": "1. Je suis sur le point de terminer ce projet. (I’m about to finish this project.)\n2. Elle est sur le point de partir en vacances. (She’s about to go on vacation.)"
+    },
+    {
+      "front": "si je pouvais, j’aimerais + INF (if I could, I would like...)",
+      "back": "1. Si je pouvais, j’aimerais vivre en France. (If I could, I’d like to live in France.)\n2. Si je pouvais, j’aimerais parler 10 langues. (If I could, I’d like to speak 10 languages.)"
+    },
+    {
+      "front": "ce qui m'intéresse, c'est... (what interests me is...)",
+      "back": "1. Ce qui m’intéresse, c’est la science. (What interests me is science.)\n2. Ce qui m’intéresse, c’est l’histoire ancienne. (What interests me is ancient history.)"
+    },
+    {
+      "front": "ce qui me déplaît, c'est... (what I dislike is...)",
+      "back": "1. Ce qui me déplaît, c’est le bruit. (What I dislike is noise.)\n2. Ce qui me déplaît, c’est l’hypocrisie. (What I dislike is hypocrisy.)"
+    },
+    {
+      "front": "quand + future tense (when... [future])",
+      "back": "1. Quand je serai grand, je serai médecin. (When I grow up, I will be a doctor.)\n2. Quand tu auras fini, appelle-moi. (When you finish, call me.)"
+    },
+    {
+      "front": "quand + imperfect (when I was...)",
+      "back": "1. Quand j’étais petit, j’aimais les dessins animés. (When I was little, I liked cartoons.)\n2. Quand il habitait à Paris, il allait souvent au Louvre. (When he lived in Paris, he often went to the Louvre.)"
+    },
+    {
+      "front": "c’est le meilleur...que (it’s the best...that)",
+      "back": "1. C’est le meilleur livre que j’aie lu. (It’s the best book I’ve read.)\n2. C’est la meilleure pizza que j’aie mangée. (It’s the best pizza I’ve ever eaten.)"
+    },
+    {
+      "front": "en + present participle (by/while doing)",
+      "back": "1. Elle écoute de la musique en travaillant. (She listens to music while working.)\n2. Il apprend en écoutant des podcasts. (He learns by listening to podcasts.)"
+    },
+    {
+      "front": "présent + depuis (I have been...for...)",
+      "back": "1. Je joue au piano depuis cinq ans. (I’ve been playing piano for five years.)\n2. Elle apprend le piano depuis six mois. (She’s been learning piano for six months.)"
+    },
+    {
+      "front": "ne...ni...ni (neither...nor)",
+      "back": "1. Je ne mange ni viande ni poisson. (I eat neither meat nor fish.)\n2. Il n’a ni frères ni sœurs. (He has neither brothers nor sisters.)"
+    },
+    {
+      "front": "ne...que (only)",
+      "back": "1. Je n’ai que dix euros. (I have only ten euros.)\n2. Elle ne mange que des légumes. (She eats only vegetables.)"
+    },
+    {
+      "front": "Bien que + subjunctive (Although...)",
+      "back": "1. Bien que j’aie 15 ans, je me sens mature. (Although I’m 15, I feel mature.)\n2. Bien qu’il soit riche, il est humble. (Although he is rich, he is humble.)"
+    },
+    {
+      "front": "Il faut que + subjunctive (It’s necessary that...)",
+      "back": "1. Il faut que tu fasses attention. (You need to be careful.)\n2. Il faut que nous partions maintenant. (We must leave now.)"
+    }
+  ]
